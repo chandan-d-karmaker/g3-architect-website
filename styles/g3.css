@@ -145,10 +145,68 @@ main{
 .hero-features p{
     margin-bottom: 32px;
 }
+/* our-features */
+.our-features{
+    max-width: 1280px;
+    margin: 0 auto;
+    gap: 140px;
+    margin-bottom: 200px;
+}
+
+.text h3{
+    font-size: 2.8rem;
+    font-weight: 800;
+    border-left: 5px solid #FF900E;
+    padding-left: 24px;
+    margin-bottom: 24px;
+}
+
+.text>p{
+    max-width: 586px;
+    font-size: 1rem;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.text-card{
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    max-width: 586px;
+    padding: 30px 40px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06)
+}
+
+.text-card h4{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.text-card p{
+    color:#727272;
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+#xp-year{
+    font-size: 2rem;
+}
+#xp{
+    margin-left: -80px;
+    margin-top: -150px;
+    padding: 45px;
+}
 
 /* some fact section */
 
-.some-facts h3{
+.some-facts >h3{
     font-size: 2.8rem;
     font-weight: 700;
     margin-bottom: 24px;
@@ -212,6 +270,16 @@ main{
     gap: 50px;
     margin: 0 auto;
     filter: grayscale(100%);
+}
+
+.sponsors-info h3{
+    font-size: 2.8rem;
+    margin-bottom: 24px;
+}
+
+.sponsors-info p{
+    font-size: 1rem;
+    line-height: 26px;
 }
 
 /* footer */
