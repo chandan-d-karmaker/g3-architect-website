@@ -194,6 +194,26 @@ main{
     font-weight: 600;
 }
 
+/* sponsors */
+.sponsors{
+    margin-bottom: 130px;
+
+}
+.sponsors-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.sponsors-company{
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    filter: grayscale(100%);
+}
+
 /* responsive media query */
 
 /* for mobile devices */
@@ -224,6 +244,17 @@ main{
         padding: 0;
         gap: 32px;
     }
+
+    .sponsors-company{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .sponsors-info{
+        margin: 50px auto;
+        padding: 10px;
+    }
+
 
 }
 
@@ -258,5 +289,10 @@ main{
         justify-items: center;
         padding: 0;
         gap: 32px;
+    }
+
+    .sponsors-company{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
     }
 }
