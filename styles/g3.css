@@ -204,6 +204,10 @@ main{
     padding: 45px;
 }
 
+.sister img{
+   width: 100%;
+}
+
 /* some fact section */
 
 .some-facts >h3{
@@ -300,7 +304,7 @@ footer{
 
 /* for mobile devices */
 @media screen and (max-width: 576px) {
-    .navbar, .menu{
+    .navbar, .menu, .our-features{
         flex-direction: column;
     }
 
@@ -339,6 +343,21 @@ footer{
 
     .copyright{
         padding: 30px 20px;
+    }
+
+    #xp{
+        margin-top: 20px;
+        margin-left: 0;
+
+    }
+
+    .sister{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-features{
+        margin: 0 20px;
     }
 
 
@@ -380,5 +399,21 @@ footer{
     .sponsors-company{
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
+    }
+
+    .our-features{
+        flex-direction: column;
+        align-items: center;
+    }
+
+     #xp{
+        margin-top: 20px;
+        padding: 45px;
+        margin-left: 0;
+
+    }
+    .sister{
+        display: flex;
+        flex-direction: column;
     }
 }
